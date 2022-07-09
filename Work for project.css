@@ -1,0 +1,71 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    margin: 0px;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+header h1 {
+    text-align: center;
+    font-size: 50px;
+    color: blue;
+}
+header {
+    padding: 40px;
+    background-color: rgb(red, green, blue);
+}
+nav {
+    background-color: #333;
+    overflow: hidden;
+}
+nav a {
+    text-decoration: none;
+    padding: 20px;
+    text-align: center;
+    float: left;
+    color: white;
+}
+main {
+    background-color: white;
+    text-align: center;
+}
+h2 {
+    padding: 20px;
+}
+section:nth-child(even){
+    background-color: rgb(red, green, blue);
+}
+section {
+    min-height: 100vh;
+}
+video {
+    padding: 10px;
+}
+iframe {
+    height: 75vh;
+}
+img {
+    padding: 10px;
+    height: 200;
+    width: 250;
+}
+section h5 {
+    margin: 40px;
+}
+footer {
+    background-color: #333;
+    overflow: hidden;
+}
+footer a {
+    text-decoration: none;
+    padding: 20px;
+    text-align: center;
+    float: left;
+    color: white;
+}
+.work {
+    height: 300px;
+    width: 300px;
+    border-radius: 200px;
+    border: solid 5px rgb(rgb(167, 74, 146), rgb(238, 94, 238), rgba(107, 107, 235, 0.24));
+}
